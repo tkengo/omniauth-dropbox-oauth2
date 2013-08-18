@@ -1,1 +1,1 @@
-require 'omniouth/dropbox_oauth2'
+require 'omniauth/dropbox_oauth2'
