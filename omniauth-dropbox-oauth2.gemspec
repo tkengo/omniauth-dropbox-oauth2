@@ -5,12 +5,12 @@ require 'omniauth-dropbox-oauth2/version'
 
 Gem::Specification.new do |gem|
   gem.name          = "omniauth-dropbox-oauth2"
-  gem.version       = Omniauth::Dropbox::Oauth2::VERSION
+  gem.version       = Omniauth::Dropbox2::VERSION
   gem.authors       = ["Kengo Tateishi"]
   gem.email         = ["embrace.ddd.flake.peace@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Dropbox strategy for OAuth 2.0}
+  gem.summary       = %q{Dropbox strategy for OAuth 2.0}
+  gem.homepage      = "https://github.com/tkengo/omniauth-dropbox-oauth2"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
